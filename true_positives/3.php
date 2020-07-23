@@ -1,4 +1,7 @@
 <?php
+/*
+ * Dynamic code invokation
+ */
 $class = '
 class getInput{
     function getHttpGet($key){

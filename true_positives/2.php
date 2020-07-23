@@ -1,4 +1,7 @@
 <?php
+/*
+ * Second Order
+ */
 function store($line){
     file_put_contents("/tmp/out.txt", $line);
 }
@@ -11,4 +14,4 @@ store($line);
 
 $input = read();
 
-echo system($input);
+echo system("echo '".$input."'");
