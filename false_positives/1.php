@@ -1,4 +1,7 @@
 <?php
+/**
+ * Dead Branch
+ */
 $needle = "test";
 
 $file = "/etc/passwd";
